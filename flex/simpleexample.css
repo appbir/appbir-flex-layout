@@ -1,0 +1,125 @@
+.examplecontainer {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.exampleheader {
+    height: 60px;
+    background: aquamarine;
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.exampleItem{
+	 height: 60px;
+    background: aqua;
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.examplecombine{
+	height: 60px;
+    background: lightblue;
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.actions {
+    height: 30px;
+    text-align: center;
+    background: beige;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+
+.action-item {
+    font-size: 16px;
+    color: blue;
+    margin: 30px;
+}
+
+.action-item:first-child {
+    margin-right: auto;
+}
+
+.action-item:last-child {
+    margin-left: auto;
+}
+
+.action-item:hover {
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.flexContainer {
+    flex: 1;
+    background: cornflowerblue;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+
+.flex-container-style {
+    flex: 0 0 14%;
+    height: 95%;
+    border-radius: .25rem;
+    border: 1px solid white;
+    background: black;
+    margin: 10px;
+    color: aqua;
+}
+
+
+.flex-item-style {
+    flex: 0 0 14%;
+    height: 95%;
+    border-radius: .25rem;
+    border: 1px solid white;
+    background: black;
+    margin: 10px;
+    color: aqua;
+}
+
+.edit-panel {
+    overflow: scroll;
+    flex: 1;
+    height: 95%;
+    border: 1px solid gray;
+    border-radius: .25rem;
+    background: white;
+    display: flex;
+    margin: 0 10px;
+}
+
+.flex-item {}
+
+.circular {}
+
+.square {
+    /*background: blue;*/
+    width: 49px;
+    height: 50px;
+    margin: 10px 0 0 10px;
+}
+
+.main-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: center;
+    text-align: center;
+}
+
+.item-select{
+	border: 1px solid red;
+}
