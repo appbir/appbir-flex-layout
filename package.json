@@ -1,0 +1,24 @@
+{
+  "name": "appbir-layout",
+  "version": "1.0.0",
+  "description": "show layout example",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/appbir/appbir-layout.git"
+  },
+  "keywords": [
+    "appbir",
+    "layout",
+    "flex"
+  ],
+  "author": "appbir",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/appbir/appbir-layout/issues"
+  },
+  "homepage": "https://github.com/appbir/appbir-layout#readme"
+}
