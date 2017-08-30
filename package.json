@@ -1,6 +1,6 @@
 {
   "name": "appbir-layout",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "show layout example",
   "main": "index.js",
   "scripts": {
